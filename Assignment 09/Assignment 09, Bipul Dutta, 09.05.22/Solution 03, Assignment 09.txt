@@ -1,0 +1,22 @@
+# Assignment: 09, 	Solution: 03, 		Date: 09.05.2022
+# A Python program using by- class, object, self, constructor, method.
+# Bipul Dutta
+
+
+class Employee:
+    def __init__(self, name, age, salary, department, id):
+        self.name = name
+        self.age = age
+        self.salary = salary
+        self.department = department
+        self.id = id
+
+emp1 = Employee("John", 25, 50000, "IT", 123456)
+print(emp1.__dict__)
+emp2 = Employee("Max", 26, 60000, "Account", 654321)
+print(emp2.__dict__)
+
+
+# output:
+# {'name': 'John', 'age': 25, 'salary': 50000, 'department': 'IT', 'id': 123456}
+# {'name': 'Max', 'age': 26, 'salary': 60000, 'department': 'Account', 'id': 654321}

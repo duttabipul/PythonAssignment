@@ -1,0 +1,24 @@
+
+# 02. Write a Python program to read the value of an integer “num” and display the value
+# of 100 when num is larger than 0, 0 when num is 0, and -1 when num is less than 0.
+
+
+num = int(input("Enter a number: "))
+
+if num > 0:
+    print("The number is larger than zero")
+elif num == 0:
+        print("The zero is equal to zero")
+else:
+    print("The number is less than zero")
+
+
+# 3 output:
+# 1. Enter a number: 100
+# The number is larger than zero
+
+# 2. Enter a number: 0
+# The zero is equal to zero
+
+# 3. Enter a number: -3
+# The number is less than zero

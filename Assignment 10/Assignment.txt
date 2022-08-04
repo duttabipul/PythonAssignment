@@ -1,0 +1,6 @@
+1. Advantage and Disadvantage of Iterator
+2. What is Infinite Iterator?
+=========================================
+1. Advantage and Disadvantage of Generator
+2. Normal vs Generator Function?
+3. Use cases of Generator?

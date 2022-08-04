@@ -1,0 +1,16 @@
+
+"""
+02. Write a program to calculate the perimeter of a triangle having sides of length
+200,300 and 500 units.
+Perimeter = a + b + c
+
+"""
+a = 200
+b = 300
+c = 500
+perimeter = a + b + c
+print("The perimeter of the triangle: ", perimeter)
+
+"""
+output: 1000
+"""

@@ -1,0 +1,17 @@
+
+# 01. Write a Python program to sum all odd number items in a list
+
+
+list1 = [10,20,31,45,56,60,75,84,93,109]
+odd = []
+
+for number in list1:
+    if number % 2 ==1:
+        odd.append(number)
+
+print("This is odd number's list: ", odd)
+print("Sum of values: ", sum(odd))
+
+
+#output: This is odd number's list:  [31, 45, 75, 93, 109]
+#Sum of values:  353

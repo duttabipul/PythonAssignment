@@ -1,0 +1,25 @@
+
+# Assignment: 09,       Solution: 08,       Date: 09.05.2022
+# A Python program using by- class, object, self, constructor, method.
+# Bipul Dutta
+
+class Cars:
+    def __init__(self, brand, price, production, country):
+        self.brand = brand
+        self.price = price
+        self.production = production
+        self.country = country
+
+car1 = Cars("Toyota", "$25000", 2020, "Japan")
+car2 = Cars("Tesla", "$50000", 2021, "USA")
+car3 = Cars("Audi", "$40000", 2022, "Germany")
+
+print("Brand: ", car1.brand, ", Production: ", car1.production, ", Country: ", car1.country)
+print("Brand: ", car2.brand, ", Price: ", car2.price, ", Country: ", car2.country)
+print("Brand: ", car3.brand, ", Production: ", car3.production, ", Country: ", car2.country)
+
+
+# output:
+# Brand:  Toyota , Production:  2020 , Country:  Japan
+# Brand:  Tesla , Price:  $50000 , Country:  USA
+# Brand:  Audi , Production:  2022 , Country:  USA

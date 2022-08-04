@@ -1,0 +1,26 @@
+# Assignment: 09,       Solution: 12,       Date: 09.05.2022
+# A Python program using by- Inheritance [Single, and Multiple]
+# Bipul Dutta
+
+# Single Inheritance:
+class Class1:
+    def __init__(self, name):
+        self.name = name
+
+    def getName(self):
+        return self.name
+    def isClass2(self):
+        return False
+class Class2(Class1):
+    def isClass2(self):
+        return True
+
+class1 = Class1("Group - A")
+print(class1.getName(), class1.isClass2())
+
+class2 = Class2("Group - B")
+print(class2.getName(), class2.isClass2())
+
+# output:
+# Group - A False
+# Group - B True

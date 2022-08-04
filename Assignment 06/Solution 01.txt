@@ -1,0 +1,18 @@
+
+# 01. Write a Python program to accept two integers and check whether they are equal or
+# not.
+
+
+num1 = int(input("Enter a value 1: "))
+num2 = int(input("Enter a value 2: "))
+
+if num1 == num2:
+    print("number1 and number2 are equal")
+else:
+    print("number1 and number2 are not equal")
+
+
+# output:
+# Enter a value 1: 50
+# Enter a value 2: 40
+# number1 and number2 are not equal

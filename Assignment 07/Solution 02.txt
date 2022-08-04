@@ -1,0 +1,17 @@
+Assignment: 07, Date: 14.04.2022
+
+# 2. Write a program in Python to display n terms of natural number and their sum.
+
+
+n = int(input("Enter a number: "))
+i = 1
+sum = 0
+while i<= n:
+    sum = sum + i
+    i = i + 1
+print("The sum is: ", sum)
+
+
+# output:
+# Enter a number: 10
+# The sum is:  55

@@ -1,0 +1,12 @@
+
+
+"""
+5. Given a number, check if it is odd or even.
+"""
+
+value = int (input("Enter a value to test odd or even: "))
+if(value % 2) == 0:
+    print("The value is even")
+else:
+    print("The value is odd")
+

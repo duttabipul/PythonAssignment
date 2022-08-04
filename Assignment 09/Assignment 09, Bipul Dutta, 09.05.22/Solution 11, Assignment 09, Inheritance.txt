@@ -1,0 +1,26 @@
+# Assignment: 09,       Solution: 11,       Date: 09.05.2022
+# A Python program using by- Inheritance [Single, and Multiple]
+# Bipul Dutta
+
+# Single Inheritance:
+class SectionA:
+    def __init__(self, name):
+        self.name = name
+
+    def getName(self):
+        return self.name
+    def isSectionB(self):
+        return False
+class SectionB(SectionA):
+    def isSectionB(self):
+        return True
+
+sectionA = SectionA("Level - 1")
+print(sectionA.getName(), sectionA.isSectionB())
+
+sectionB = SectionB("Level - 2")
+print(sectionB.getName(), sectionB.isSectionB())
+
+# output:
+# Level - 1 False
+# Level - 2 True

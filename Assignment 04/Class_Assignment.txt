@@ -1,0 +1,9 @@
+1. Make a note on List, Tuple, Set.
+
+
+Reference:
+[1] https://www.w3schools.com/python/default.asp
+
+[2] https://www.javatpoint.com/python-tutorial
+
+[3] https://www.programiz.com/python-programming

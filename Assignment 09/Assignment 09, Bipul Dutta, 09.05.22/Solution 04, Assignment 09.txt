@@ -1,0 +1,25 @@
+# Assignment: 09,       Solution: 04,       Date: 09.05.2022
+# A Python program using by- class, object, self, constructor, method.
+# Bipul Dutta
+
+class hotel_staff:
+    def __init__(self, name, id, shift, salary, section):
+        self.name = name
+        self.id = id
+        self.shift =  shift
+        self.salary = salary
+        self.section = section
+
+staff1 = hotel_staff("Olivia", 101, "Day", 25000, "Store")
+staff2 = hotel_staff("Sophia", 105, "Night", 35000, "Account")
+staff3 = hotel_staff("Jeny", 114, "Night", 33000, "Kitchen")
+
+print(staff1.__dict__)
+print("Name: ", staff2.name, ", ID", staff2.id, ", Salary: ", staff2.salary)
+print("Name: ", staff3.name, ", Shift: ", staff3.shift, ", Section: ", staff3.section)
+
+
+# output:
+# {'name': 'Olivia', 'id': 101, 'shift': 'Day', 'salary': 25000, 'section': 'Store'}
+# Name:  Sophia , ID 105 , Salary:  35000
+# Name:  Jeny , Shift:  Night , Section:  Kitchen

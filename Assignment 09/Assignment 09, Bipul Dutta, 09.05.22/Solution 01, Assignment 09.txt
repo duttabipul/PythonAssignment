@@ -1,0 +1,25 @@
+# Assignment: 09,       Solution: 01,       Date: 09.05.2022
+# A Python program using by- class, object, self, constructor, method.
+# Bipul Dutta
+
+class factory_worker:
+    def __init__(self, name, id, section, salary, shift):
+        self.name = name
+        self.id = id
+        self.section = section
+        self.salary = salary
+        self.shift = shift
+
+worker1 = factory_worker("Jony", 1005, "Chokolate", 35000, "Day")
+worker2 = factory_worker("Rony", 1008, "Dairy Milk", 40000, "Night")
+worker3 = factory_worker("Tony", 1012, "Candy", 32000, "Day")
+
+print("Name: ", worker1.name, ", ID: ", worker1.id)
+print("Name: ", worker2.name, ", Salary: ", worker2.salary)
+print("Name: ", worker3.name, ", Section: ", worker3.section)
+
+
+# output:
+# Name:  Jony , ID:  1005
+# Name:  Rony , Salary:  40000
+# Name:  Tony , Section:  Candy

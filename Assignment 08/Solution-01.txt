@@ -1,0 +1,20 @@
+#Assignment:08, Date: 15.04.2022
+
+# Problem - 01
+# Given a non-negative integer x, compute and return the square root of x.
+# Since the return type is an integer, the decimal digits are truncated, and only the integer part of the
+# result is returned.
+
+number = int(input("Enter a number: "))
+square_root = number ** 0.5
+print("The square root of", number, "is :", square_root)
+print("The integer part of the result is: ", int(square_root))
+
+# output: Enter a number: 10
+# The square root of 10 is : 3.1622776601683795
+# The integer part of the result is:  3
+
+# Note:
+# we know that if a number have power ½ or 0.5
+# then it will represent to the square root of that number.
+# That’s why we are using 0.5 as power here.

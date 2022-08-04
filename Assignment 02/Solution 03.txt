@@ -1,0 +1,26 @@
+
+"""
+03. Write a program to add 10 to the number 1000 and then divide it by 30. Now, the
+modulus of the quotient is taken with 50 and then multiply the resultant value by
+15. Display the final result.
+"""
+
+num = 10
+num += 1000
+print(num)  #output = 1010
+
+"""
+Now i want to divided this value by 30
+"""
+div = num / 30
+print(div)  #output = 33.666666666666664
+
+#modules
+modules = div % 50
+print(modules)  #output 33.666666666666664
+
+#we have to multiple by 15 and the result will be-
+final_result = modules * 15
+print("The Final Result: ", final_result)
+
+#The final result is: 504.99999999999994

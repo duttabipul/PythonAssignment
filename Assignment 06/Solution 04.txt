@@ -1,0 +1,31 @@
+
+# 04. Write a Python program to read the temperature in centigrade and display a suitable
+# message according to the temperature state below:
+# Temp < 0 then Freezing weather
+# Temp 0-10 then Very Cold weather
+# Temp 10-20 then Cold weather
+# Temp 20-30 then Normal in Temp
+# Temp 30-40 then It’s Hot
+# Temp >=40 then It’s Very Hot
+
+print("Put down a value: ")
+temp = int(input())
+print("Temperature shown in Centigrade: ")
+if temp < 0:
+    print("Freezing weather")
+elif temp >= 0 and temp <=10:
+    print("The weather is very cold")
+elif temp >= 11 and temp <=20:
+    print("Cold weather")
+elif temp >= 21 and temp <=30:
+    print("Normal temperature")
+elif temp >= 31 and temp <=40:
+    print("It's a hot day")
+elif temp >= 40:
+    print("Very hot temperature")
+
+# output:
+# Put down a value:
+# 5
+# Temperature shown in Centigrade:
+# The weather is very cold 

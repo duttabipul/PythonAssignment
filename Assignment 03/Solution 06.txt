@@ -1,0 +1,15 @@
+
+# Write a Python program to change a given string to a new string where the first and
+# last chars have been exchanged.
+
+
+def change_string(str1):
+    return str1[-1:] + str1[1:-1] + str1[:1]
+
+print("The original value is: A B C D")
+print("After Exchange the value: ", change_string('A B C D'))
+
+
+#output:
+# The original value is: A B C D
+# After Exchange the value:  D B C A

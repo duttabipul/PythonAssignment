@@ -1,0 +1,16 @@
+
+# 04. Write a Python program to print a specified list after removing the 1st and 3rd
+# elements.
+
+
+Data_list = ['P', 'Y', 'T', 'H', 'O', 'N']
+print("Main Data:", Data_list)
+
+Remove_1st_Element = Data_list.remove ('Y')
+Remove_3rd_Element = Data_list.remove('H')
+print("Removing after 1st and 3rd elements: ", Data_list)
+
+
+#output:
+# Main Data: ['P', 'Y', 'T', 'H', 'O', 'N']
+# Removing after 1st and 3rd elements:  ['P', 'T', 'O', 'N']

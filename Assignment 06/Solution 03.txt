@@ -1,0 +1,21 @@
+
+# 03. Write a Python program to find the largest of three numbers
+
+print("Enter three values: ")
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
+
+if num1 > num2 and num1 > num3:
+    print("The 1st number is biggest among of the three")
+elif num2 > num1 and num2 > num3:
+    print("The 2nd number is biggest among of the three")
+elif num3 > num1 and num3 > num2:
+    print("The 3rd number is biggest among of the three")
+
+# output:
+# Enter three values:
+# 320
+# 550
+# 460
+# The 2nd number is biggest among of the three

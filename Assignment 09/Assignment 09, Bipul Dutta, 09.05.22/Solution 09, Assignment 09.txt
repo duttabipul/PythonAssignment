@@ -1,0 +1,26 @@
+
+# Assignment: 09,       Solution: 09,       Date: 09.05.2022
+# A Python program using by- class, object, self, constructor, method.
+# Bipul Dutta
+
+class mobile:
+    def __init__(self, brand, price, camera, ram, rom):
+        self.brand = brand
+        self.price = price
+        self.camera = camera
+        self.ram = ram
+        self.rom = rom
+
+product1 = mobile("iphone", "$1200", "12MP", "8GB", "128GB")
+product2 = mobile("Samsung", "$700", "32MP", "8GB", "64GB")
+product3 = mobile("Xioami", "$500", "48MP", "8GB", "64GB")
+
+print("Brand: ", product1.brand, ", Price: ", product1.price, ", Camera: ", product1.camera)
+print("Brand: ", product2.brand, ", Ram: ",product2.ram, ", Camera: ", product1.camera)
+print("Brand: ", product3.brand, ", Rom: ",product3.rom, ", Price: ", product3.price)
+
+
+# output:
+# Brand:  iphone , Price:  $1200 , Camera:  12MP
+# Brand:  Samsung , Ram:  8GB , Camera:  12MP
+# Brand:  Xioami , Rom:  64GB , Price:  $500

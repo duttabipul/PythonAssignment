@@ -1,0 +1,21 @@
+
+# 05. Write a Python program to remove the nth index character from a nonempty string
+
+
+index_file = 'python'
+print("Index Character: ", index_file)
+
+def remove_chr(str, n):
+    first_part = str[:n]
+    last_part = str[n + 1:]
+    return first_part + last_part
+
+print(remove_chr('python', 0))
+print(remove_chr('python', 2))
+print(remove_chr('python', 5))
+
+
+#output:
+# ython
+# pyhon
+# pytho

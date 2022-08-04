@@ -1,0 +1,22 @@
+
+# Assignment: 09,       Solution: 05,       Date: 09.05.2022
+# A Python program using by- class, object, self, constructor, method.
+# Bipul Dutta
+
+class book_store:
+    def __init__(self, name, type, language, price, writer):
+        self.name = name
+        self.type = type
+        self.language = language
+        self.price = price
+        self.writer = writer
+
+book1 = book_store("Hemlet", "Novel", "English", "$50", "Shakespeare")
+book2 = book_store("Gitanjali", "Poems", "Bengali", "$20", "Rabindranath Thakur")
+
+print(book1.__dict__)
+print(book2.__dict__)
+
+# output:
+# {'name': 'Hemlet', 'type': 'Novel', 'language': 'English', 'price': '$50', 'writer': 'Shakespeare'}
+# {'name': 'Gitanjali', 'type': 'Poems', 'language': 'Bengali', 'price': '$20', 'writer': 'Rabindranath Thakur'}

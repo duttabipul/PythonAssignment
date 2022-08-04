@@ -1,0 +1,23 @@
+
+# Assignment: 09,       Solution: 06,       Date: 09.05.2022
+# A Python program using by- class, object, self, constructor, method.
+# Bipul Dutta
+
+class Collage:
+    def __init__(self, name, age, designation, salary, holiday):
+        self.name = name
+        self.designation = designation
+        self.salary = salary
+        self.holiday = holiday
+        self.age = age
+
+staff1 = Collage("William", 45, "Professor", 60000, "Sunday")
+staff2 = Collage("Smith", 37, "Office Clerk", 30000, "Sunday")
+
+print(staff1.__dict__)
+print("Name: ", staff2.name, ", Designation: ", staff2.designation)
+
+
+# output:
+# {'name': 'William', 'designation': 'Professor', 'salary': 60000, 'holiday': 'Sunday', 'age': 45}
+# Name:  Smith , Designation:  Office Clerk

@@ -1,0 +1,13 @@
+Assignment: 07, Date: 14.04.2022
+
+# 3. Write python program to print alphabets from a to z
+
+
+print("Capital Alphebets from A to Z")
+for char in range(ord('A'), ord('Z')):     				#ASCII code, 65 = A, 91 = Z
+    print(chr(char), end= " ")             				# for char in range(65, 91):
+
+
+# output:
+# Capital Alphebets from A to Z
+# A B C D E F G H I J K L M N O P Q R S T U V W X Y Z

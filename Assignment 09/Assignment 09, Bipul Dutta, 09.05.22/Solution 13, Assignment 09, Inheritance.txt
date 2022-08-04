@@ -1,0 +1,28 @@
+# Assignment: 09,       Solution: 13,       Date: 09.05.2022
+# A Python program using by- Inheritance [Single, and Multiple]
+# Bipul Dutta
+
+#Multiple Inheritance:
+class father:
+    fatherName = ""
+
+    def print_fatherName(self):
+        print(self.fatherName)
+class mother:
+    motherName = ""
+
+    def print_motherName(self):
+        print(self.motherName)
+class child(father, mother):
+    def parents(self):
+        print("Father: ", self.fatherName)
+        print("Mother: ", self.motherName)
+child1 = child()
+
+child1.fatherName = "Lelin"
+child1.motherName = "Rubby"
+child1.parents()
+
+# output:
+# Father:  Lelin
+# Mother:  Rubby

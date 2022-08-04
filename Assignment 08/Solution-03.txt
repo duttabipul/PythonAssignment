@@ -1,0 +1,31 @@
+#Assignment:08, Date: 18.04.2022
+
+# Problem -03. Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
+# Return the running sum of nums.
+
+nums = int(input("How many input do you want to take?: "))
+list = []
+print("Enter value one by one: ")
+for i in range(0, nums):
+    list.append(int(input()))
+def runningSum(ltf):
+    nt = len(ltf)
+    ans = []
+    for i in range(0, nt):
+        ans.append(0)
+    ans[0] = ltf[0]
+    for i in range(1, nt):
+        ans[i] = ans[i - 1] + ltf[i]
+    return ans
+
+tp = runningSum(list)
+print(tp)
+
+# output:
+# How many input do you want to take?: 4
+# Enter value one by one:
+# 10
+# 20
+# 30
+# 40
+# [10, 30, 60, 100]

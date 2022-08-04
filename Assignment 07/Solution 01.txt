@@ -1,0 +1,22 @@
+Assignment: 07, Date: 14.04.2022
+
+# 1.  Python program to find sum of natural numbers from 1 to n.
+
+
+n = int(input("Enter a number: "))
+i = 1
+sum = 0
+while (i<= n):
+    print("When the number is: ", sum)
+    sum = sum + i
+    i = i + 1
+print("The sum will be: ", sum)
+
+
+# output: Enter a number: 3
+# When the number is:  0
+# The sum will be:  1
+# When the number is:  1
+# The sum will be:  3
+# When the number is:  3
+# The sum will be:  6

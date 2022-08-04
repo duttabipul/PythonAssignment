@@ -1,0 +1,25 @@
+
+# Assignment: 09,       Solution: 10,       Date: 09.05.2022
+# A Python program using by- class, object, self, constructor, method.
+# Bipul Dutta
+
+class laptop:
+    def __init__(self, name, price, country, HDD):
+        self.name = name
+        self.price = price
+        self.country = country
+        self.HDD = HDD
+
+lap1 = laptop("hp", "$990", "USA", "256GB")
+lap2 = laptop("apple", "$1290", "USA", "500GB")
+lap3 = laptop("Fujitsu", "$890", "Japan", "320GB")
+
+print(lap1.__dict__)
+print(lap2.__dict__)
+print(lap3.__dict__)
+
+
+# output:
+# {'name': 'hp', 'price': '$990', 'country': 'USA', 'HDD': '256GB'}
+# {'name': 'apple', 'price': '$1290', 'country': 'USA', 'HDD': '500GB'}
+# {'name': 'Fujitsu', 'price': '$890', 'country': 'Japan', 'HDD': '320GB'}

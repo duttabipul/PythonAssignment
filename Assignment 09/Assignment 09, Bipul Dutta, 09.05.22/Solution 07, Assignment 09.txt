@@ -1,0 +1,22 @@
+
+# Assignment: 09,       Solution: 07,       Date: 09.05.2022
+# A Python program using by- class, object, self, constructor, method.
+# Bipul Dutta
+
+class products:
+    def __init__(self, name, price, company, country):
+        self.name = name
+        self.price = price
+        self.company = company
+        self.country = country
+
+goods1 = products("Wine", "$15", "Bronco Wine Co.", "USA")
+goods2 = products("Beer", "$10", "McKinnon Co Ltd.", "UK")
+
+print("Name: ", goods1.name, ", Price: ",goods1.price, ", Country: ",goods1.country)
+print("Name: ", goods2.name,  ", Company: ", goods2.company, ", Country: ",goods2.country)
+
+
+# ouput:
+# Name:  Wine , Price:  $15 , Country:  USA
+# Name:  Beer , Company:  McKinnon Co Ltd. , Country:  UK

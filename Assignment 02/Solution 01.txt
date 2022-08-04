@@ -1,0 +1,20 @@
+
+"""
+01. The length and breadth of a rectangle are 10 and 20 respectively. Write a program
+to calculate the area and perimeter of the rectangle.
+Area = Length * Breadth
+Perimeter = 2 * Length * Breadth
+
+"""
+lenth = 10
+breadth = 20
+area = lenth * breadth
+perimeter = 2 * lenth * breadth
+print("Area of the Rectangle: ", area)
+print("Perimeter of the Rectangle: ", perimeter)
+
+"""
+output:
+area = 200
+perimeter = 400
+"""

@@ -1,0 +1,10 @@
+
+"""
+04. Write a program to check if the two numbers 100 and 500 are equal.
+"""
+num1 = 100
+num2 = 500
+equal_to = num1 == num2
+print(equal_to)
+
+#Output: False

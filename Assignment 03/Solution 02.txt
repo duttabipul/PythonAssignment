@@ -1,0 +1,11 @@
+
+# 02. Write a Python program to multiply 5 with all the items in a list.
+
+
+list = [25, 32, 12, 23, 41, 52]
+multiple_with_five = [i * 5 for i in list]
+
+print("The Result is: ", multiple_with_five)
+
+
+#output: The Result is:  [125, 160, 60, 115, 205, 260]

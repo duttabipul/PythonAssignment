@@ -1,0 +1,18 @@
+
+# 03. Write a Python program to check a list is empty or not.
+
+
+def inquary(list):
+    if len(list) == 0:
+        return 0
+    else:
+        return 1
+
+list = []
+if inquary(list):
+    print("The list is not emptry")
+else:
+    print("The list is empty")
+
+
+#output: The list is empty

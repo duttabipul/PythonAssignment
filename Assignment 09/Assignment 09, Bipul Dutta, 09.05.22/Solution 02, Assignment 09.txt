@@ -1,0 +1,24 @@
+# Assignment: 09,   	Solution: 02,   	Date: 09.05.2022
+# A Python program using by- class, object, self, constructor, method.
+# Bipul Dutta
+
+class student:
+    def __init__(self, name, roll, Class, group, age):
+        self.name = name
+        self.roll = roll
+        self.Class = Class
+        self.group = group
+        self.age = age
+
+stu1 = student("Robin", 1101, 9, "Arts", 14)
+stu2 = student("Nirob", 1102, 10, "Science", 15)
+stu3 = student("Akash", 1103, 10, "Commerce", 15)
+print(stu1.__dict__)
+print(stu2.__dict__)
+print(stu3.__dict__)
+
+
+# output:
+# {'name': 'Robin', 'roll': 1101, 'Class': 9, 'group': 'Arts', 'age': 14}
+# {'name': 'Nirob', 'roll': 1102, 'Class': 10, 'group': 'Science', 'age': 15}
+# {'name': 'Akash', 'roll': 1103, 'Class': 10, 'group': 'Commerce', 'age': 15}
